@@ -1,0 +1,109 @@
+@media (max-width: 600px) {
+    header {
+      font-size: x-small;
+    }
+    .menu{
+        font-size: 1.5em;
+    }
+    .logo{
+        margin-right: 2%;
+    }
+  }
+  
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background: #e9e9e9;
+}
+
+header {
+  background-color: #184884;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 2%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+nav.menu {
+  margin-right: 4%;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+nav.menu ul li {
+  padding: 4% 1%;
+  max-width: fit-content;
+}
+
+nav.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav.menu ul li:hover {
+  background: #2685ad;
+  border-radius: 8px;
+}
+
+main {
+  padding: 4%;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.homeSection {
+  background-color: #fff;
+  padding: 4%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.homeSection p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.slide img {
+  width: 48%;
+  margin: 0px 2% 10px 2%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+footer {
+  background-color: #184884;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
